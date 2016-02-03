@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>What is Your Name</title>
+</head>
+<body>
+<form action="SayHello" method="POST">
+	Customer Name :
+	<br>
+	<input name="customerName"/>
+	<br>
+	Professional :
+	<br>
+	<input name="prof" type="radio" value="Developer" name="prof">Develolper
+	<input name="prof" type="radio" value="AP" name="prof">AP
+	<input name="prof" type="radio" value="SP" name="prof">SP
+	<br>
+	Location : 
+	<br>
+	<select name="location" multiple size="4">
+		<option value="Phnom Penh">Phnom Penh</option>
+		<option value="Kandal">Kandal</option>
+		<option value="Siem Reap">Siem Reap</option>
+		<option value="Sihanouk Ville">Sihanouk Ville</option>
+	</select>
+	<br>
+	<input type="submit" value="Process" />
+</form>
+
+</body>
+</html>
